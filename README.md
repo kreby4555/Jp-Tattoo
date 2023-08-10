@@ -9,5 +9,5 @@
 <br>
 <h2>Imagem do Projeto</h2>
 <br>
-<img margin="40 30" src="https://raw.githubusercontent.com/kreby4555/Calculadora-IMC/a121508d4fe03d99ea2e72fa37d7c47ea2ece726/Assets/imc%20desktop.png" />
-<img margin="40 30" src="https://raw.githubusercontent.com/kreby4555/Calculadora-IMC/a121508d4fe03d99ea2e72fa37d7c47ea2ece726/Assets/imc%20mobile.png" />
+<img margin="40 30" src="https://raw.githubusercontent.com/kreby4555/Jp-Tattoo/14d981e7e5710afd40edb67b5463ee799e587b95/Assets/Imagem%20do%20WhatsApp%20de%202023-08-09%20%C3%A0(s)%2019.36.07.jpg" />
+<img margin="40 30" src="https://raw.githubusercontent.com/kreby4555/Jp-Tattoo/14d981e7e5710afd40edb67b5463ee799e587b95/Assets/mobile.png" />
