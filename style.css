@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    box-shadow: 0px 3px 10px #ecebeb;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    width: 240px;
+    filter: invert(100%);
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.40rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.insta{
+    filter: invert(100%);
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    
+}
+
+.photo {
+    width: 700px;
+    height: 600px;
+    margin: 50px;
+    border: 5px solid #ffffff;
+    border-radius: 49px;
+}
+
+.description {
+    margin: 180px 40px 20px 300px;
+    text-align: center;
+}
+
+.description-title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about {
+    margin: 100px 10%;
+    width: 600px;
+}
+
+.about-title {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.about-description {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.ifra {
+    margin: 40px 20em;
+
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.title-tattoo {
+    display: block;
+    margin: 70px auto;
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.tattoo {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1px;
+    margin-bottom: 50px;
+
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.tattoos {
+    width: 400px;
+    height: 400px;
+    border: 5px solid #f4f4f4 ;
+    border-radius: 30px;
+}
+
+.title-contact {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+
+
+.contact {
+    display: flex;
+    width: 375px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+
+label {
+    font-weight: 700;
+    font-size: 14px;
+    color: #777777;
+}
+
+select, input{
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.submit {
+    background: #000000;
+    color: #F4F4F4;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 20.5px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+
+.nav-item:hover {
+    opacity: 0.5;
+    color: #bbbbbb;
+}
+
+.nav-item:active {
+    opacity: 0.8;
+    color: #A0522D;
+}
+
+.submit:hover {
+    opacity: 0.6;
+    color: #F4F4F4;
+}
+
+.submit:active {
+    opacity: 0.8;
+    color: #A0522D;
+}
+
+
+
+
+@media screen and (max-width: 730px) {
+
+    body {
+        width: 100vw;
+        height: 500px;
+    }
+
+    header {
+        width: 140%;
+        height: auto;
+    }
+
+    .img-logo {
+        width: 150px;
+        position: relative;
+        left: -70px;
+    }
+
+    .nav-bar {
+        padding: 1.5rem 4rem;
+        width: 56%;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+        width: auto;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+        width: auto;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+        width: auto;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: auto;
+    }
+
+    .information {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .description {
+        width: 300px;
+    }
+
+    .photo {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 140px;
+    }
+
+    .description-title {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 24px;
+        position: relative;
+        top: -180px;
+    }
+
+    #about {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-title {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 24px;
+        position: relative;
+        top: -260px;
+    }
+
+    .about-description {
+        width: 300px;
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 20px;
+        position: relative;
+        top: -240px;
+    }
+
+    h2 {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        position: relative;
+        top: -380px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        top: -370px;
+    }
+
+    #job {
+        width: 100%;
+        height: auto;
+    }
+
+    .title-tattoo{
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        position: relative;
+        top: -390px;
+    }
+
+    .tattoos {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: -530px;
+    }
+
+    .contact {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 70%;
+        height: auto;
+        position: relative;
+        top: -530px;
+    }
+
+   
+}

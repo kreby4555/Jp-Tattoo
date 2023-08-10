@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jp Tattoo</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./Assets/jp_tattata-removebg-preview.png" alt="logo" class="img-logo">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#job" class="nav-link">Tattoos</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link"> Sobre</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link"> Contato</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <a href="https://www.instagram.com/jp_tattoo19/" target="_blank"><img src="./Assets/insta-removebg-preview.png" alt="instagram" class="insta"></a>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./Assets/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#job" class="nav-link">Tattoos</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="login-button">
+                <img src="./Assets/insta-removebg-preview.png" alt="instagram" class="insta">
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="information">
+
+        <div class="profile">
+            <img class="photo" src="./Assets/tatuador.jpg" alt="photo-tatto">
+        </div>
+
+        <div class="description">
+            <h1 class="description-title typing-animation">JP TATTOO</h1>
+            <h2 class="description-title"> Tatuador profissional</h2>
+        </div>
+
+    </section>
+
+    <section id="about">
+
+
+        <div class="about">
+            <h1 class="about-title">Sobre Mim</h1>
+            <p class="about-description">Tatuador profissional, apaixonado na área. Me chamo Paulo, tenho 36 anos,
+                trabalho com tatuagem a mais de 10 anos. Venha fazer um orçamento comigo.</p>
+        </div>
+
+        <div class="ifra" id="localization">
+            <h2>Localização</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1458.8691344470305!2d-43.25633914616454!3d-22.872020824872425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997dcf1869c287%3A0x6af323d0c8059509!2sComunidade%20agr%C3%ADcola%20de%20higienopolis!5e0!3m2!1spt-BR!2sbr!4v1691491962408!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+
+    <h1 class="title-tattoo">Jobs</h1>
+    <section class="tattoo" id="job">
+
+
+        <div class="img">
+            <img class="tattoos" src="./Assets/nenem.png" alt="baby foot tattoo">
+        </div>
+        <div class="img">
+            <img class="tattoos" src="./Assets/peitoral.png" alt="">
+        </div>
+        <div class="img">
+            <img class="tattoos" src="./Assets/pescoço.png" alt="">
+        </div>
+        <div class="img">
+            <img class="tattoos" src="./Assets/cobra.png" alt="">
+        </div>
+        <div class="img">
+            <img class="tattoos" src="./Assets/relogio.png" alt="">
+        </div>
+        <div class="img">
+            <img class="tattoos" src="./Assets/india.png" alt="">
+        </div>
+
+    </section>
+
+
+    <section class="contact" id="contact">
+
+        <form>
+            <h1 class="title-contact">Contato</h1>
+            <label>Nome</label>
+            <input type="text" placeholder="Nome" id="name" autocomplete="additional-name">
+            <label for="">Contato</label>
+            <input type="number" placeholder="(11) 99999-9999" id="number">
+            <label for="">Local da Tatuagem</label>
+            <select id="select">
+                <option>Cabeça</option>
+                <option>Pescoço</option>
+                <option>Costela</option>
+                <option>Peito</option>
+                <option>Costas</option>
+                <option>Pulso</option>
+                <option>Braço</option>
+                <option>Palma da Mão</option>
+                <option>Panturrilha</option>
+                <option>Ante-Braço</option>
+                <option>Glúteos</option>
+                <option>Ombro</option>
+                <option>Pé</option>
+                <option>Coxas</option>
+            </select>
+            <label for="" id="label-textarea">Descreva como vai ser a tatuagem e o local, caso não tenha na opção e
+                mandar a imagem assim que enviar o formulário.</label>
+            <textarea class="textarea" id="text" placeholder="Digite Aqui..."></textarea>
+
+            <button class="submit" type="button" onclick="enviarWhatsApp()">Enviar</button>
+
+        </form>
+
+    </section>
+    </main>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
